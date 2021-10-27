@@ -6,7 +6,7 @@
 	padding: 40px;
 	max-width: 750px;
 	width: 100%;
-	background: $light-background;
+	background: var(#{--components-background-default});
 	box-shadow: $box-shadow;
 	border-radius: $border-radius;
 }
@@ -45,7 +45,7 @@
 	}
 
 	.indicator_value {
-		color: $light-color;
+		color: var(#{--text-color-default});
 	}
 }
 
